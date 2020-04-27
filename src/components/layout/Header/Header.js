@@ -1,11 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Header.scss';
+import NavBar from '../../features/NavBar/NavBar';
 
 function Header() {
 
   return(
     <div className='header'>
-      <h1>Header</h1>
+      <NavBar />
     </div>
   );
 };
