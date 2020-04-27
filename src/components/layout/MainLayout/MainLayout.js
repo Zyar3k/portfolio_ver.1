@@ -1,9 +1,10 @@
 import React from 'react';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
+import './MainLayout.scss';
 
 const MainLayout = ({children}) => (
-  <div>
+  <div className='mainLayout'>
     <Header />
       {children}
     <Footer />
