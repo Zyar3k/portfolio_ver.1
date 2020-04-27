@@ -1,0 +1,15 @@
+@import './settings.scss';
+@import './typography.scss';
+@import './normalize.scss';
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: $font-family;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  letter-spacing: 4px;
+}
