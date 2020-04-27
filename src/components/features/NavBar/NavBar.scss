@@ -5,18 +5,9 @@ nav {
   justify-content: space-between;
   font-size: 24px;
   align-items: center;
-  // background: #000;
-  // width: 80vw;
-  // margin: 0 auto;
-  // max-width: 80vw;
-  // background: #000;
-  // justify-content: flex-end;
-  // padding: 20px;
 }
 
 .logoNav {
-  // width: 20%;
-  // background: red;
   border-right: 5px $font-color-hover solid;
 }
 
@@ -26,10 +17,27 @@ nav {
     padding: 0 4px 0 16px;
     align-items: center;
     border-right: 3px $font-color-hover solid;
-    // background: blue;
   }
-  
-  // padding: 20px;
-  // width: 80%;
-  // justify-content: flex-end;
 }
+
+@media(max-width: 1024px) {
+
+  nav {
+    padding-right: 20px;
+  }
+}
+
+@media(max-width: 768px) {
+
+  nav {
+    font-size: 20px;
+  }
+
+  .navLinks {
+
+    a {
+      padding: 0 2px 0 12px;
+    }
+  }
+}
+
