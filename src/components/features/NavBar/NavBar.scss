@@ -41,3 +41,14 @@ nav {
   }
 }
 
+@media(max-width: 767px) {
+  
+  nav {
+    padding-right: 0;
+  }
+
+  .navLinks {
+    display: none;
+  }
+}
+

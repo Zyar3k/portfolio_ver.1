@@ -46,10 +46,10 @@ class Portfolio extends React.Component {
             <p className='portfolioTitle'>kamień - papier - nożyce</p>
             <div className='imgWrapper'>
               <img src={img3} alt='img' />
-              <p className='portfolioBtns'>
+              <div className='portfolioBtns'>
                 <a href='https://github.com/Zyar3k/rock-paper-scissors' className='portfolioBtn'>kod</a>
                 <a href='https://zyar3k.github.io/rock-paper-scissors/' className='portfolioBtn'>demo</a>
-              </p>
+              </div>
             </div>
             <p className='portfolioDesc'>Pierwsza gra napisana w JavaScript wyświetlająca wpisane imię gracza i wybraną liczbę rund. V2 - rozszerzona o tabelę wyników. Tech stack: HTML | Sass | RWD | JavaScript ES5 | npm Scripts.</p>
           </div>

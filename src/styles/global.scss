@@ -36,3 +36,11 @@ a.active {
   height: 100%;
   padding: $base-size*2;
 }
+
+@media(max-width: 767px) {
+
+
+  .pageContent {
+    padding: 0;// $base-size;
+  }
+}

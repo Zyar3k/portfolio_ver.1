@@ -62,3 +62,78 @@
     }
   }
 }
+
+
+@media(max-width: 767px) {
+  
+  .homepage {
+    margin-top: 0;
+    padding: 0;
+
+    .homeText {
+      font-size: 24px;
+      padding: 0;
+
+      .quoteAuthor {
+        font-size: 16px;
+        padding-right: 6px;
+      }
+    }
+
+    .imgHomeWrapper {
+      margin-top: 2%;
+      flex-direction: column;
+
+      .imgHome {        
+        border-right: none;
+        &:hover {
+          border-right: none;
+        }
+
+        img {
+          border: 2px solid goldenrod;
+          filter: grayscale(0.6);
+          &:hover {
+            transform: scale(1);
+          }
+        }
+      }
+      .imgTextWrapper {
+        padding-left: 0;
+        justify-content: right;
+        text-align: right;
+        div {
+          padding: 6px;
+          color: $font-color;
+          &:hover {
+            color: $font-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 320px) {
+  .homepage {
+    padding: 10px;
+    .homeText {
+      font-size: 20px;
+      text-align: justify;
+
+      .quoteAuthor {
+        font-size: 10px;
+        padding-right: 0;
+      }
+    }
+
+    .imgHomeWrapper {
+      flex-direction: column-reverse;
+
+      .imgHome {
+        display: none;
+      }
+    }
+
+  }
+}
