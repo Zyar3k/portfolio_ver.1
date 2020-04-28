@@ -12,10 +12,6 @@
     color: goldenrod;
     padding: 14px 0;
 
-    .quotetext {
-
-    }
-
     .quoteAuthor {
       text-align: right;
       font-size: 20px;
@@ -26,7 +22,7 @@
   .imgHomeWrapper {
     display: flex;
     align-items: center;
-    margin-top: 10%;
+    margin-top: 8%;
     
     .imgHome {
       padding-right: 20px;
@@ -62,7 +58,6 @@
         &:hover {
           color: $font-color;
         }
-
       }
     }
   }
