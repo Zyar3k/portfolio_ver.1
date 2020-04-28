@@ -1,20 +1,45 @@
 @import '../../../styles/global.scss';
 
 .footer {
-  
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
   .footDesktop {
-    margin: 0;
-    padding: 0 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     color: $font-color-hover;
+  }
+
+  .rightFoot {
 
     a {
-      margin: 0;
-      padding: 0;
-      font-size: 24px;
-      padding-left: 10px;
+      font-size: 20px;
+      padding: 0 6px;
+    }
+  }
+  .footMobile {
+    display: none;
+  }
+}
+
+@media(max-width:768px) {
+  .footer {
+    .footDesktop {
+      display: none;
+    }
+
+    .footMobile {
+      display: inherit;
+      float: right;
+      
+      a {
+        font-size: 20px;
+        text-align: center;
+        padding: 0 12px;
+      }
     }
   }
 }
