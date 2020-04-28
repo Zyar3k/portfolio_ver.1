@@ -9,3 +9,17 @@
     color: $font-color-hover;
   }
 }
+
+@media(max-width: 767px) {
+  .about {
+    padding: 10px;
+  }
+
+  .aboutText {
+    color: $font-color-hover;
+
+    &:hover {
+      color: $font-color;
+    }
+  }  
+}
