@@ -60,7 +60,24 @@
 }
 
 @media(max-width: 767px) {
+
+  
+
   .portfolioBox {
     width: 100%;
+  }
+
+  .portfolioBox {
+    box-shadow: none;
+    border-top: solid 4px $font-color-hover;
+    margin-bottom: 0;
+
+    &:hover {
+      box-shadow: none;
+    }
+  }
+
+  .portfolioBtns {
+    border-bottom: 1px dotted $font-color-hover;
   }
 }

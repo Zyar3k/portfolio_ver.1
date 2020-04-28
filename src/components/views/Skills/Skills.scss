@@ -3,6 +3,7 @@
 .skills {
   display: flex;
   flex-direction: column;
+  margin-bottom: $base-size*2;
 }
 
 .skillsSection {
@@ -128,5 +129,57 @@
 @media(max-width: 767px) {
   .iconBox {
     padding: 8px;
+  }
+  .skillsSection {
+    margin: 0;
+    border-radius: 0;
+    box-shadow: none;
+    &:hover {
+      box-shadow: none;
+    }
+
+    .html5 {
+      color: #f16529;
+    }
+    .css {
+      color: #2965f1;
+    }
+    .sass {
+      color: #CD6799;
+    }
+    .bootstrap {
+      color: #553C7B;
+    }
+    .js {
+      color: #F0DB4F;
+    }
+    .react {
+      color: #61DBFB;
+    }
+    .node{
+      color: #68A063;
+    }
+    .mongo {
+      color: #3FA037;
+    }
+    .git {
+      color: #f34f29;
+    }
+    .npm {
+      color: #CC3534;
+    }
+    .yarn {
+      color: #2c8ebb;
+    }
+    .jira {
+      color: #0052cc;
+    }
+  }
+
+  .sectionTitle {
+    border-style: solid hidden solid hidden;
+    border-color: $font-color-hover;
+    border-width: 2px;
+
   }
 }
