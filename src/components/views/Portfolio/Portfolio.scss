@@ -1,1 +1,59 @@
 @import '../../../styles/global.scss';
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.imgWrapper {
+  padding: 10px;
+}
+
+.imgWrapper img {
+  width: 100%;
+  filter: grayscale(0.9);
+  transition: $transition;
+}
+
+.portfolioBox {
+  box-shadow: 0 0 8px #14161a;
+  width: 45%;
+  margin-bottom: 20px;
+  transition: $transition;
+  border-radius: 4px;
+
+  &:hover {
+  box-shadow: 0 0 8px rgb(235, 235, 235);
+
+    .imgWrapper img {
+      filter: grayscale(0);
+    }
+
+    .portfolioDesc {
+      color: $font-color;
+    }
+  }
+}
+
+.portfolioTitle {
+  font-size: 24px;
+  text-align: center;
+}
+
+.portfolioBtns {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid $font-color-hover;
+
+  a {
+    text-transform: uppercase;
+    font-size: 24px;
+  }
+}
+
+.portfolioDesc {
+  margin: 8px auto;
+  width: 95%;
+  text-align: justify;
+}
