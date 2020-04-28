@@ -1,5 +1,7 @@
 import React from 'react';
 import './Portfolio.scss';
+import PageTitle from '../../common/PageTitle/PageTitle';
+
 
 class Portfolio extends React.Component {
 

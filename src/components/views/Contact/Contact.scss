@@ -4,16 +4,17 @@
   display: flex-wrap;
   justify-content: space-around;
   text-align: center;
+  margin-top: $base-size*3;
 }
 
 .boxWrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 
 }
 
 .contactBox {
-  width: 48%;
+  width: 47%;
   transition: ease 0.8s;
   border-radius: 4px;
   box-shadow: 0 0 8px #14161a;
@@ -28,6 +29,7 @@
     color: $font-color;
     font-size: 60px;
     transition: $transition;
+    margin-bottom: 20px;
   }
 
   .contactTitle {

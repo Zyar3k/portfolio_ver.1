@@ -13,10 +13,10 @@ class Footer extends React.Component {
         <div className='footDesktop'>
           <span>copyright Zyar3k - 2020</span>
           <span>
-            <a href='https://www.linkedin.com/in/arkadiusz-zygan/' target="_blank" rel="noopener noreferrer" className='contactBox'>
+            <a href='https://www.linkedin.com/in/arkadiusz-zygan/' target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faLinkedin} />
             </a>
-            <a href='https://github.com/Zyar3k' target="_blank" rel="noopener noreferrer" className='contactBox'>
+            <a href='https://github.com/Zyar3k' target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faGithub} />
             </a>
             <a href='mailto:a.zygan@gmail.com' target='_blank' rel='noopener noreferrer'>

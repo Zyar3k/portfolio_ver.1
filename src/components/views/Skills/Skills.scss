@@ -1,1 +1,118 @@
 @import '../../../styles/global.scss';
+
+.skills {
+  display: flex-wrap;
+
+}
+
+.skillsSection {
+  display: flex-wrap;
+  width: 100%;
+  margin: 26px 0;
+  padding: 10px;
+  box-shadow: 0 0 8px #14161a;
+  transition: $transition;
+  border-radius: 4px;
+
+  &:hover {
+    box-shadow: 0 0 8px rgb(235, 235, 235);
+
+    .html5 {
+      color: #f16529;
+    }
+    .css {
+      color: #2965f1;
+    }
+    .sass {
+      color: #CD6799;
+    }
+    .bootstrap {
+      color: #553C7B;
+    }
+    .js {
+      color: #F0DB4F;
+    }
+    .react {
+      color: #61DBFB;
+    }
+    .node{
+      color: #68A063;
+    }
+    .mongo {
+      color: #3FA037;
+    }
+    .git {
+      color: #f34f29;
+    }
+    .npm {
+      color: #CC3534;
+    }
+    .yarn {
+      color: #2c8ebb;
+    }
+    .jira {
+      color: #0052cc;
+    }
+    .skillName {
+      color: $font-color;
+    }
+  }
+}
+
+.sectionTitle {
+  font-size: 20px;
+  margin: 6px 0;
+  color: $font-color-hover;
+  text-align: center;
+}
+
+.skillsContent {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.iconBox {
+  display: flex-wrap;
+  text-align: center;
+  transition: $transition;
+  padding: 10px;
+
+  &.html5 {
+    text-transform: uppercase;
+  }
+  &.css {
+    text-transform: uppercase;
+  }
+  &.sass {
+    text-transform: capitalize;
+  }
+  &.bootstrap {
+    text-transform: capitalize;
+  }
+  &.js {
+    text-transform: none;
+  }
+  &.react {
+    text-transform: capitalize;
+  }
+  &.node {
+    text-transform: capitalize;
+  }
+  &.mongo {
+    text-transform: none;
+  }
+  &.jira {
+    text-transform: capitalize;
+  }
+
+  .icon {
+    font-size: 54px;
+    padding-bottom: 10px;
+  }
+
+  .skillName {
+    font-size: 18px;
+    transition: $transition;
+    color: $font-color-hover;
+  }
+}
