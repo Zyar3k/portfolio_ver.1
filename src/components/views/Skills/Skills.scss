@@ -1,12 +1,13 @@
 @import '../../../styles/global.scss';
 
 .skills {
-  display: flex-wrap;
-
+  display: flex;
+  flex-direction: column;
 }
 
 .skillsSection {
-  display: flex-wrap;
+  display: flex;
+  flex-direction: column;
   width: 100%;
   margin: 26px 0;
   padding: 10px;
@@ -68,6 +69,7 @@
 
 .skillsContent {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
@@ -114,5 +116,17 @@
     font-size: 18px;
     transition: $transition;
     color: $font-color-hover;
+  }
+}
+
+@media(width: 768px) {
+  .iconBox {
+    padding: 8px;
+  }
+}
+
+@media(max-width: 767px) {
+  .iconBox {
+    padding: 8px;
   }
 }
