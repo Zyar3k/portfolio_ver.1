@@ -87,7 +87,7 @@ class Portfolio extends React.Component {
                 <a href='https://secure-woodland-63361.herokuapp.com/' className='portfolioBtn'>demo</a>
               </div>
             </div>
-            <p className='portfolioDesc'>Projekt grupowy - symulacja pracy w grupie z innymi junior Front-end developerami.  Tech stack: HTML | Sass | RWD | React | API | CRA- webpack | git | Jira | kanban | Yarn.</p>
+            <p className='portfolioDesc'>Projekt treningowy - praca skupiona na backendowej stronie projektu oraz połączenie front i backendu.  Tech stack: HTML | Sass | RWD | React | API | CRA- webpack | git | Yarn.</p>
           </div>
         </div>
       </div>
