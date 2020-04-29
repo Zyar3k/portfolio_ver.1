@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import './PageTitle.scss';
 
 const PageTitle = ({ children }) => (
-  <div className="page-title">
+  <div className="pageTitle">
     {children}
   </div>
 );

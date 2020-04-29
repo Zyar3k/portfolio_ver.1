@@ -75,6 +75,10 @@
     }
   }
 
+  .imgWrapper img {
+    filter: grayscale(0);
+  }
+
   .portfolioBtns {
     border-bottom: 1px dotted $font-color-hover;
   }
