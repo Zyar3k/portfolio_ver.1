@@ -11,10 +11,8 @@ class Footer extends React.Component {
 
     return(
       <div className='footer'>
-
         <div className='footDesktop'>
           <div className='leftFoot'>copyright Zyar3k - 2020</div>
-          
           <div className='rightFoot'>
             <a href='https://www.linkedin.com/in/arkadiusz-zygan/' target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faLinkedin} />
@@ -26,8 +24,7 @@ class Footer extends React.Component {
             <FontAwesomeIcon icon={faEnvelope} />
             </a>
           </div>
-        </div>
-        
+        </div>        
         <div className='footMobile'>
           <Link to='/portfolio'>Portfolio</Link>
           <Link to='/contact'>Kontakt</Link>

@@ -4,7 +4,6 @@ import { HashRouter as Router } from 'react-router-dom';
 import './styles/global.scss';
 import App from './App';
 
-
 const Root = () => (
   <Router>
     <App />

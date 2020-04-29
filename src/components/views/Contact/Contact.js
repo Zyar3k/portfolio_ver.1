@@ -13,7 +13,6 @@ class Contact extends React.Component {
       <div className='pageContent'>
         <PageTitle>Napisz do mnie</PageTitle>
         <div className='contact'>
-
           <div className='boxWrapper'>
             <a href='#1' target="_blank" rel="noopener noreferrer" className='contactBox'>
               <div><FontAwesomeIcon className='icon cv' icon={faFilePdf} /></div>

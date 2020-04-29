@@ -19,6 +19,6 @@ function App() {
       </Switch>
     </MainLayout>
   );
-}
+};
 
 export default App;

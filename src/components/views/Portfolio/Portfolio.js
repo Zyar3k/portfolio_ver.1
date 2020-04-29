@@ -8,7 +8,6 @@ import img4 from './weather.png';
 import img5 from './group_project.png';
 import img6 from './new_wave.png';
 
-
 class Portfolio extends React.Component {
 
   render(){
@@ -17,7 +16,6 @@ class Portfolio extends React.Component {
       <div className='pageContent'>
         <PageTitle>portfolio</PageTitle>
         <div className='portfolio'>
-          
           <div className='portfolioBox'>
             <p className='portfolioTitle'>Betty Craft Designs</p>
             <div className='imgWrapper'>
@@ -29,7 +27,6 @@ class Portfolio extends React.Component {
             </div>
             <p className='portfolioDesc'>Indywidualny projekt na zakończenie Bootcampu Web Developer Plus. Tech stack: MERN - MongoDB, Express, React (Redux, Router), Node.js | Sass | CRA - webpack | npm | Yarn.</p>
           </div>
-
           <div className='portfolioBox'>
             <p className='portfolioTitle'>panel administracyjny</p>
             <div className='imgWrapper'>
@@ -41,7 +38,6 @@ class Portfolio extends React.Component {
             </div>
             <p className='portfolioDesc'>Pierwszy indywidualny projekt napisany podczas Bootcampu Web Developer Plus na podstawie pliku PSD od grafika. Tech stack: HTML | Sass | RWD | JavaScript ES5 | Photoshop | npm Scripts.</p>
           </div>
-
           <div className='portfolioBox'>
             <p className='portfolioTitle'>kamień - papier - nożyce</p>
             <div className='imgWrapper'>
@@ -51,9 +47,8 @@ class Portfolio extends React.Component {
                 <a href='https://zyar3k.github.io/rock-paper-scissors/' className='portfolioBtn'>demo</a>
               </div>
             </div>
-            <p className='portfolioDesc'>Pierwsza gra napisana w JavaScript wyświetlająca wpisane imię gracza i wybraną liczbę rund. V2 - rozszerzona o tabelę wyników. Tech stack: HTML | Sass | RWD | JavaScript ES5 | npm Scripts.</p>
+            <p className='portfolioDesc'>Pierwsza gra napisana w JavaScript wyświetlająca wynik rozgrywki. Tech stack: HTML | Sass | RWD | JavaScript ES5 | npm Scripts.</p>
           </div>
-
           <div className='portfolioBox'>
             <p className='portfolioTitle'>Aplikacja pogodowa</p>
             <div className='imgWrapper'>
@@ -65,7 +60,6 @@ class Portfolio extends React.Component {
             </div>
             <p className='portfolioDesc'>Aplikacja pogodowa z użyciem axios API - wyświetlająca aktualną pogodę w szukanym mieście. Tech stack: HTML | Sass | RWD | React | API | CRA- webpack | Yarn.</p>
           </div>
-
           <div className='portfolioBox'>
             <p className='portfolioTitle'>Projekt grupowy</p>
             <div className='imgWrapper'>
@@ -75,9 +69,8 @@ class Portfolio extends React.Component {
                 <a href='https://stupefied-lewin-977cb1.netlify.com/' className='portfolioBtn'>demo</a>
               </div>
             </div>
-            <p className='portfolioDesc'>Projekt grupowy - symulacja pracy w grupie z innymi junior Front-end developerami.  Tech stack: HTML | Sass | RWD | React | API | CRA- webpack | git | Jira | kanban | Yarn.</p>
+            <p className='portfolioDesc'>Projekt grupowy - symulacja pracy w grupie z innymi junior Front-end developerami. Każdy z uczestników wybierał/miał przydzielane zadania.  Tech stack: HTML | Sass | RWD | React | API | CRA- webpack | git | Jira | kanban | Yarn.</p>
           </div>
-
           <div className='portfolioBox'>
             <p className='portfolioTitle'>New Wave festival</p>
             <div className='imgWrapper'>

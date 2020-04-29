@@ -12,56 +12,53 @@ class Skills extends React.Component {
       <div className='pageContent'>
         <PageTitle>wciąż się rozwijam</PageTitle>
         <div className='skills'>
-          
-        <div className='skillsSection'>
-          <div className='sectionTitle'>
-          FRONT-END
-          </div>
-          <div className='skillsContent'>
-            <div className='iconBox html5'>
-              <FontAwesomeIcon  icon={faHtml5} className='icon' />
-              <div className='skillName'>HTML5</div>
+          <div className='skillsSection'>
+            <div className='sectionTitle'>
+            FRONT-END
             </div>
-            <div className='iconBox css'>
-              <FontAwesomeIcon  icon={faCss3} className='icon' />
-              <div className='skillName'>CSS</div>
-            </div>
-            <div className='iconBox sass'>
-              <FontAwesomeIcon  icon={faSass} className='icon' />
-              <div className='skillName'>Sass</div>
-            </div>
-            <div className='iconBox bootstrap'>
-              <FontAwesomeIcon  icon={faBootstrap} className='icon' />
-              <div className='skillName'>Bootstrap</div>
-            </div>
-            <div className='iconBox js'>
-              <FontAwesomeIcon  icon={faJs} className='icon' />
-              <div className='skillName'>JavaScript</div>
-            </div>
-            <div className='iconBox react'>
-              <FontAwesomeIcon  icon={faReact} className='icon' />
-              <div className='skillName'>React+Redux</div>
-            </div>
-          </div>
-        </div>
-
-        <div className='skillsSection'>
-          <div className='sectionTitle'>
-          BACK-END
-          </div>
-          <div className='skillsContent'>
-            <div className='iconBox node'>
-              <FontAwesomeIcon  icon={faNode} className='icon' />
-              <div className='skillName'>Node.js - Express</div>
-            </div>
-            <div className='iconBox mongo'>
-              <FontAwesomeIcon  icon={faMdb} className='icon' />
-              <div className='skillName'>MongoDB</div>
+            <div className='skillsContent'>
+              <div className='iconBox html5'>
+                <FontAwesomeIcon  icon={faHtml5} className='icon' />
+                <div className='skillName'>HTML5</div>
+              </div>
+              <div className='iconBox css'>
+                <FontAwesomeIcon  icon={faCss3} className='icon' />
+                <div className='skillName'>CSS</div>
+              </div>
+              <div className='iconBox sass'>
+                <FontAwesomeIcon  icon={faSass} className='icon' />
+                <div className='skillName'>Sass</div>
+              </div>
+              <div className='iconBox bootstrap'>
+                <FontAwesomeIcon  icon={faBootstrap} className='icon' />
+                <div className='skillName'>Bootstrap</div>
+              </div>
+              <div className='iconBox js'>
+                <FontAwesomeIcon  icon={faJs} className='icon' />
+                <div className='skillName'>JavaScript</div>
+              </div>
+              <div className='iconBox react'>
+                <FontAwesomeIcon  icon={faReact} className='icon' />
+                <div className='skillName'>React+Redux</div>
+              </div>
             </div>
           </div>
-        </div>
-
-        <div className='skillsSection'>
+          <div className='skillsSection'>
+            <div className='sectionTitle'>
+            BACK-END
+            </div>
+            <div className='skillsContent'>
+              <div className='iconBox node'>
+                <FontAwesomeIcon  icon={faNode} className='icon' />
+                <div className='skillName'>Node.js - Express</div>
+              </div>
+              <div className='iconBox mongo'>
+                <FontAwesomeIcon  icon={faMdb} className='icon' />
+                <div className='skillName'>MongoDB</div>
+              </div>
+            </div>
+          </div>
+          <div className='skillsSection'>
             <div className='sectionTitle'>
             TOOLS
             </div>
@@ -84,8 +81,6 @@ class Skills extends React.Component {
               </div>
             </div>
           </div>
-
-
         </div>
       </div>
     );

@@ -11,7 +11,6 @@ class NavBar extends React.Component {
           <Logo />
         </div>
         <div className='navLinks'>
-          {/* <NavLink exact to='/'>Start</NavLink> */}
           <NavLink to='/about'>O mnie</NavLink>
           <NavLink to='/skills'>Umiejętności</NavLink>
           <NavLink to='/portfolio'>Portfolio</NavLink>

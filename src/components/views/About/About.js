@@ -11,7 +11,7 @@ class About extends React.Component {
         <div className='about'>
           <PageTitle>poznaj moją historię</PageTitle>
           <div className='aboutText'>
-          Nazywam się arkadiusz zygan. Około rok temu postanowiłem usystematyzować wiedzę z zakresu kodowania i programowania. Na przestrzeni lat interesowałem się nowymi technologiami, jednak nigdy nie uzyskałem pełnej wiedzy teoretycznej, jak i nie zrealizowałem praktycznych projektów. Od roku systematycznie uczę się programowania po stronie front-endu. 
+          Nazywam się arkadiusz zygan. Około rok temu postanowiłem usystematyzować wiedzę z zakresu kodowania i programowania. Na przestrzeni lat interesowałem się nowymi technologiami, jednak nigdy nie uzyskałem pełnej wiedzy teoretycznej, jak i nie zrealizowałem praktycznych projektów. Od roku systematycznie uczę się programowania po stronie front-endu.
           </div>
           <div className='aboutText'>
           Ukończyłem intensywny 9-miesięczny kurs programowania pod opieką indywidualnego mentora – Bootcamp Web Developer Plus w Kodilla. Uczestniczyłem również w szkoleniach rozszerzających moje umiejętnośći na platformie Udemy z zakresu JavaScript, React i Data science.
