@@ -69,6 +69,20 @@
   
   .contactBox {
     width: 100%;
+
+    .git {
+      color: #f34f29;
+    }
+    .in {
+      color: #0077b5;
+    }
+    .mail {
+      color: greenyellow;
+    }
+    .cv {
+      color: $font-color;
+      background: #da251c;
+    }
   }
 }
 
