@@ -10,6 +10,8 @@ export const StyledMenu = styled.nav`
   padding-right: 32px;
   position: absolute;
   z-index: 998;
+  top: 0;
+  right: 0;
   transition: transform 0.7s ease-in-out;
   transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
 

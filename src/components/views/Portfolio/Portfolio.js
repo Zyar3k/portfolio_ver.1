@@ -7,6 +7,7 @@ import img3 from './rps.png';
 import img4 from './weather.png';
 import img5 from './group_project.png';
 import img6 from './new_wave.png';
+import img7 from './czatap_port.png';
 
 class Portfolio extends React.Component {
 
@@ -26,6 +27,17 @@ class Portfolio extends React.Component {
               </div>
             </div>
             <p className='portfolioDesc'>Indywidualny projekt na zakończenie Bootcampu Web Developer Plus. Tech stack: MERN - MongoDB, Express, React (Redux, Router), Node.js | Sass | CRA - webpack | npm | Yarn.</p>
+          </div>
+          <div className='portfolioBox'>
+            <p className='portfolioTitle'>Cz@-App</p>
+            <div className='imgWrapper'>
+              <img src={img7} alt='img' />
+              <div className='portfolioBtns'>
+                <a href='https://github.com/Zyar3k/your_chat_app/tree/master' className='portfolioBtn'>kod</a>
+                <a href='https://youthful-clarke-0b8301.netlify.app/' className='portfolioBtn'>demo</a>
+              </div>
+            </div>
+            <p className='portfolioDesc'>Aplikacja czatowa w czasie rzeczywistym  Tech stack: HTML | Sass | RWD | React | Express | Node | Socket.IO | CRA- webpack | git | Yarn.</p>
           </div>
           <div className='portfolioBox'>
             <p className='portfolioTitle'>panel administracyjny</p>
