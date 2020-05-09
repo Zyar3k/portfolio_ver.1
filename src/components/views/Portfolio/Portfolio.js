@@ -8,6 +8,7 @@ import img4 from './weather.png';
 import img5 from './group_project.png';
 import img6 from './new_wave.png';
 import img7 from './czatap_port.png';
+import img8 from './Covid-19 Counter.png';
 
 class Portfolio extends React.Component {
 
@@ -49,6 +50,17 @@ class Portfolio extends React.Component {
               </div>
             </div>
             <p className='portfolioDesc'>Pierwszy indywidualny projekt napisany podczas Bootcampu Web Developer Plus na podstawie pliku PSD od grafika. Tech stack: HTML | Sass | RWD | JavaScript ES5 | Photoshop | npm Scripts.</p>
+          </div>
+          <div className='portfolioBox'>
+            <p className='portfolioTitle'>statystyki CovID-19</p>
+            <div className='imgWrapper'>
+              <img src={img8} alt='img' />
+              <div className='portfolioBtns'>
+                <a href='https://github.com/Zyar3k/covid-19_counter' className='portfolioBtn'>kod</a>
+                <a href='https://agitated-aryabhata-cef99e.netlify.app/' target='_blank' rel='noopener noreferrer' className='portfolioBtn'>demo</a>
+              </div>
+            </div>
+            <p className='portfolioDesc'>Aplikacja pozwalająca śledzić na bieżąco statystyki dotyczące Covid-19. Tech stack: HTML | Sass | RWD | React | API | npm Scripts.</p>
           </div>
           <div className='portfolioBox'>
             <p className='portfolioTitle'>kamień - papier - nożyce</p>
