@@ -56,11 +56,11 @@ class Portfolio extends React.Component {
             <div className='imgWrapper'>
               <img src={img4} alt='img' />
               <div className='portfolioBtns'>
-                <a href='https://github.com/Zyar3k/simple_search_weather' className='portfolioBtn'>kod</a>
-                <a href='https://zyar3k.github.io/simple_search_weather/' className='portfolioBtn'>demo</a>
+                <a href='https://github.com/Zyar3k/local_weather_app' className='portfolioBtn'>kod</a>
+                <a href='https://agitated-aryabhata-cef99e.netlify.app/' className='portfolioBtn'>demo</a>
               </div>
             </div>
-            <p className='portfolioDesc'>Aplikacja pogodowa z użyciem axios API - wyświetlająca aktualną pogodę w szukanym mieście. Tech stack: HTML | Sass | RWD | React | API | CRA- webpack | Yarn.</p>
+            <p className='portfolioDesc'>Aplikacja pogodowa z użyciem API - wyświetlająca aktualną pogodę w szukanym mieście. Tech stack: HTML | Sass | RWD | React | API | CRA- webpack | Yarn.</p>
           </div>
           <div className='portfolioBox'>
             <p className='portfolioTitle'>kamień - papier - nożyce</p>
