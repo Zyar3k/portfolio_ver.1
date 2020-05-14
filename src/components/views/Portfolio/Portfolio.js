@@ -4,7 +4,7 @@ import PageTitle from '../../common/PageTitle/PageTitle';
 import img1 from './bcd.png';
 import img2 from './panel_adm.png';
 import img3 from './rps.png';
-import img4 from './weather.png';
+import img4 from './local_weather.jpg';
 import img5 from './group_project.png';
 import img6 from './new_wave.png';
 import img7 from './czatap_port.png';
@@ -41,17 +41,6 @@ class Portfolio extends React.Component {
             <p className='portfolioDesc'>Aplikacja czatowa w czasie rzeczywistym  Tech stack: HTML | Sass | RWD | React | Express | Node | Socket.IO | CRA- webpack | git | Yarn.</p>
           </div>
           <div className='portfolioBox'>
-            <p className='portfolioTitle'>panel administracyjny</p>
-            <div className='imgWrapper'>
-              <img src={img2} alt='img' />
-              <div className='portfolioBtns'>
-                <a href='https://github.com/Zyar3k/Solo-project' className='portfolioBtn'>kod</a>
-                <a href='https://zyar3k.github.io/Solo-project/#' target='_blank' rel='noopener noreferrer' className='portfolioBtn'>demo</a>
-              </div>
-            </div>
-            <p className='portfolioDesc'>Pierwszy indywidualny projekt napisany podczas Bootcampu Web Developer Plus na podstawie pliku PSD od grafika. Tech stack: HTML | Sass | RWD | JavaScript ES5 | Photoshop | npm Scripts.</p>
-          </div>
-          <div className='portfolioBox'>
             <p className='portfolioTitle'>statystyki CovID-19</p>
             <div className='imgWrapper'>
               <img src={img8} alt='img' />
@@ -61,6 +50,17 @@ class Portfolio extends React.Component {
               </div>
             </div>
             <p className='portfolioDesc'>Aplikacja pozwalająca śledzić na bieżąco statystyki dotyczące Covid-19. Tech stack: HTML | Sass | RWD | React | API | npm Scripts.</p>
+          </div>
+          <div className='portfolioBox'>
+            <p className='portfolioTitle'>Aplikacja pogodowa</p>
+            <div className='imgWrapper'>
+              <img src={img4} alt='img' />
+              <div className='portfolioBtns'>
+                <a href='https://github.com/Zyar3k/simple_search_weather' className='portfolioBtn'>kod</a>
+                <a href='https://zyar3k.github.io/simple_search_weather/' className='portfolioBtn'>demo</a>
+              </div>
+            </div>
+            <p className='portfolioDesc'>Aplikacja pogodowa z użyciem axios API - wyświetlająca aktualną pogodę w szukanym mieście. Tech stack: HTML | Sass | RWD | React | API | CRA- webpack | Yarn.</p>
           </div>
           <div className='portfolioBox'>
             <p className='portfolioTitle'>kamień - papier - nożyce</p>
@@ -74,15 +74,15 @@ class Portfolio extends React.Component {
             <p className='portfolioDesc'>Pierwsza gra napisana w JavaScript wyświetlająca wynik rozgrywki. Tech stack: HTML | Sass | RWD | JavaScript ES5 | npm Scripts.</p>
           </div>
           <div className='portfolioBox'>
-            <p className='portfolioTitle'>Aplikacja pogodowa</p>
+            <p className='portfolioTitle'>panel administracyjny</p>
             <div className='imgWrapper'>
-              <img src={img4} alt='img' />
+              <img src={img2} alt='img' />
               <div className='portfolioBtns'>
-                <a href='https://github.com/Zyar3k/simple_search_weather' className='portfolioBtn'>kod</a>
-                <a href='https://zyar3k.github.io/simple_search_weather/' className='portfolioBtn'>demo</a>
+                <a href='https://github.com/Zyar3k/Solo-project' className='portfolioBtn'>kod</a>
+                <a href='https://zyar3k.github.io/Solo-project/#' target='_blank' rel='noopener noreferrer' className='portfolioBtn'>demo</a>
               </div>
             </div>
-            <p className='portfolioDesc'>Aplikacja pogodowa z użyciem axios API - wyświetlająca aktualną pogodę w szukanym mieście. Tech stack: HTML | Sass | RWD | React | API | CRA- webpack | Yarn.</p>
+            <p className='portfolioDesc'>Pierwszy indywidualny projekt napisany podczas Bootcampu Web Developer Plus na podstawie pliku PSD od grafika. Tech stack: HTML | Sass | RWD | JavaScript ES5 | Photoshop | npm Scripts.</p>
           </div>
           <div className='portfolioBox'>
             <p className='portfolioTitle'>Projekt grupowy</p>

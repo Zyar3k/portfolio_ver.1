@@ -5,6 +5,9 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faFilePdf } from '@fortawesome/free-solid-svg-icons';
 import PageTitle from '../../common/PageTitle/PageTitle';
 
+import Plpin from './pin_pl.png';
+import Ukpin from './pin_uk.png';
+
 class Contact extends React.Component {
 
   render(){
@@ -14,10 +17,18 @@ class Contact extends React.Component {
         <PageTitle>Napisz do mnie</PageTitle>
         <div className='contact'>
           <div className='boxWrapper'>
-            <a href='#1' target="_blank" rel="noopener noreferrer" className='contactBox'>
-              <div><FontAwesomeIcon className='icon cv' icon={faFilePdf} /></div>
+            <div  className='contactBox'>
+              <div className='pinWrapper'>
+                <a href='https://drive.google.com/file/d/1d2C9pub8Kvj9UCHmJDoG0_JCUtyKupmu/view' target="_blank" rel="noopener noreferrer">
+                  <img src={Plpin} alt='pin' className='pin' />
+                </a>
+                <div><FontAwesomeIcon className='icon cv' icon={faFilePdf} /></div>
+                <a href='https://drive.google.com/open?id=1sixNne4mGrT94aVRdj6vGBRf9OMkvZHp' target="_blank" rel="noopener noreferrer">
+                  <img src={Ukpin} alt='pin' className='pin' />
+                </a>
+              </div>
               <div className='contactTitle'>Curriculum Vitae</div>
-            </a>
+            </div>
             <a href='https://www.linkedin.com/in/arkadiusz-zygan/' target="_blank" rel="noopener noreferrer" className='contactBox'>
               <FontAwesomeIcon className='icon in' icon={faLinkedin} />
               <div className='contactTitle'><span>linkedin.com/in/</span><span>arkadiusz-zygan</span></div>
