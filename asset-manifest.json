@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.d0b451c8.chunk.css",
-    "main.js": "./static/js/main.2907de67.chunk.js",
-    "main.js.map": "./static/js/main.2907de67.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.a43d3f6e.js",
-    "runtime-main.js.map": "./static/js/runtime-main.a43d3f6e.js.map",
-    "static/js/2.4eb504e8.chunk.js": "./static/js/2.4eb504e8.chunk.js",
-    "static/js/2.4eb504e8.chunk.js.map": "./static/js/2.4eb504e8.chunk.js.map",
+    "main.css": "./static/css/main.523ee31f.chunk.css",
+    "main.js": "./static/js/main.a454f37d.chunk.js",
+    "main.js.map": "./static/js/main.a454f37d.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.f7d5131d.js",
+    "runtime-main.js.map": "./static/js/runtime-main.f7d5131d.js.map",
+    "static/js/2.7f8bd52f.chunk.js": "./static/js/2.7f8bd52f.chunk.js",
+    "static/js/2.7f8bd52f.chunk.js.map": "./static/js/2.7f8bd52f.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.21b416662fb92f8bbe261b6a00ff6b80.js": "./precache-manifest.21b416662fb92f8bbe261b6a00ff6b80.js",
+    "precache-manifest.86a75b0fc484c6a0a6e8a85d26491781.js": "./precache-manifest.86a75b0fc484c6a0a6e8a85d26491781.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.d0b451c8.chunk.css.map": "./static/css/main.d0b451c8.chunk.css.map",
-    "static/js/2.4eb504e8.chunk.js.LICENSE.txt": "./static/js/2.4eb504e8.chunk.js.LICENSE.txt",
-    "static/media/Covid-19 Counter.png": "./static/media/Covid-19 Counter.16442e39.png",
+    "static/css/main.523ee31f.chunk.css.map": "./static/css/main.523ee31f.chunk.css.map",
+    "static/js/2.7f8bd52f.chunk.js.LICENSE.txt": "./static/js/2.7f8bd52f.chunk.js.LICENSE.txt",
+    "static/media/Covid-19 Counter.png": "./static/media/Covid-19 Counter.cd6fda47.png",
+    "static/media/Numerologia.png": "./static/media/Numerologia.06c2ab80.png",
     "static/media/bcd.png": "./static/media/bcd.b6a97c7c.png",
     "static/media/czatap_port.png": "./static/media/czatap_port.8989e28e.png",
     "static/media/group_project.png": "./static/media/group_project.624014eb.png",
@@ -25,9 +26,9 @@
     "static/media/rps.png": "./static/media/rps.e7017523.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a43d3f6e.js",
-    "static/js/2.4eb504e8.chunk.js",
-    "static/css/main.d0b451c8.chunk.css",
-    "static/js/main.2907de67.chunk.js"
+    "static/js/runtime-main.f7d5131d.js",
+    "static/js/2.7f8bd52f.chunk.js",
+    "static/css/main.523ee31f.chunk.css",
+    "static/js/main.a454f37d.chunk.js"
   ]
 }
