@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c513e2d87e18967e3467fe92f533c761",
+    "revision": "6263078061e0c06a79bb579e6db7b9f7",
     "url": "./index.html"
   },
   {
-    "revision": "11ba79ea6f1eb4e7fb55",
+    "revision": "c0d04c54af73ad4d3ba1",
     "url": "./static/css/main.523ee31f.chunk.css"
   },
   {
-    "revision": "25bb27db36e36ba058f4",
-    "url": "./static/js/2.7f8bd52f.chunk.js"
+    "revision": "3aea0aef1c6c7da3f271",
+    "url": "./static/js/2.75fd9852.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "./static/js/2.7f8bd52f.chunk.js.LICENSE.txt"
+    "url": "./static/js/2.75fd9852.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "11ba79ea6f1eb4e7fb55",
-    "url": "./static/js/main.a454f37d.chunk.js"
+    "revision": "c0d04c54af73ad4d3ba1",
+    "url": "./static/js/main.dad2d002.chunk.js"
   },
   {
     "revision": "d8c7886c3d147ceaa4f1",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "06c2ab800f4a6169b9117bb05f3d8888",
     "url": "./static/media/Numerologia.06c2ab80.png"
+  },
+  {
+    "revision": "dd785253938abd0dd5d485a7d25a54e1",
+    "url": "./static/media/Picture_shop.dd785253.png"
   },
   {
     "revision": "b6a97c7c9d3af27e246c33405cf5c675",
