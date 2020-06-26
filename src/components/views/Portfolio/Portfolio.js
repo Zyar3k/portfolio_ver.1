@@ -9,6 +9,8 @@ import img5 from './group_project.png';
 import img6 from './new_wave.png';
 import img7 from './czatap_port.png';
 import img8 from './Covid-19 Counter.png';
+import img9 from './Numerologia.png';
+import img10 from './Picture_shop.png';
 
 class Portfolio extends React.Component {
 
@@ -46,10 +48,43 @@ class Portfolio extends React.Component {
               <img src={img8} alt='img' />
               <div className='portfolioBtns'>
                 <a href='https://github.com/Zyar3k/covid-19_counter' className='portfolioBtn'>kod</a>
-                <a href='https://agitated-aryabhata-cef99e.netlify.app/' target='_blank' rel='noopener noreferrer' className='portfolioBtn'>demo</a>
+                <a href='https://covid-19-counter.netlify.app/' target='_blank' rel='noopener noreferrer' className='portfolioBtn'>demo</a>
               </div>
             </div>
             <p className='portfolioDesc'>Aplikacja pozwalająca śledzić na bieżąco statystyki dotyczące Covid-19. Tech stack: HTML | Sass | RWD | React | API | npm Scripts.</p>
+          </div>          
+          <div className='portfolioBox'>
+            <p className='portfolioTitle'>kamień - papier - nożyce</p>
+            <div className='imgWrapper'>
+              <img src={img3} alt='img' />
+              <div className='portfolioBtns'>
+                <a href='https://github.com/Zyar3k/rock-paper-scissors' className='portfolioBtn'>kod</a>
+                <a href='https://zyar3k.github.io/rock-paper-scissors/' className='portfolioBtn'>demo</a>
+              </div>
+            </div>
+            <p className='portfolioDesc'>Pierwsza gra napisana w JavaScript wyświetlająca wynik rozgrywki. Tech stack: HTML | Sass | RWD | JavaScript ES5 | npm Scripts.</p>
+          </div>
+          <div className='portfolioBox'>
+            <p className='portfolioTitle'>numerologia</p>
+            <div className='imgWrapper'>
+              <img src={img9} alt='img' />
+              <div className='portfolioBtns'>
+                <a href='https://github.com/Zyar3k/numerology_4.0.0' className='portfolioBtn'>kod</a>
+                <a href='https://numerologia.netlify.app/' className='portfolioBtn'>demo</a>
+              </div>
+            </div>
+            <p className='portfolioDesc'>Aplikacja pozwalająca poznać swoje specjalne liczby i sprawdzić wibracje numerologiczne na dwoolny dzień/miesiąc. Tech stack: HTML | Sass | RWD | JavaScript ES5 | npm Scripts.</p>
+          </div>
+          <div className='portfolioBox'>
+            <p className='portfolioTitle'>picture shop</p>
+            <div className='imgWrapper'>
+              <img src={img10} alt='img' />
+              <div className='portfolioBtns'>
+                <a href='https://github.com/Zyar3k/picture_shop' className='portfolioBtn'>kod</a>
+                <a href='https://picture-shop.netlify.app/' className='portfolioBtn'>demo</a>
+              </div>
+            </div>
+            <p className='portfolioDesc'>Strona z elementami portfolio fotografa. Działający koszyk i zwalidowany formularz wiadomości. Tech stack: HTML | Sass | RWD | JavaScript ES5 | npm Scripts.</p>
           </div>
           <div className='portfolioBox'>
             <p className='portfolioTitle'>Aplikacja pogodowa</p>
@@ -61,17 +96,6 @@ class Portfolio extends React.Component {
               </div>
             </div>
             <p className='portfolioDesc'>Aplikacja pogodowa z użyciem API - wyświetlająca aktualną pogodę w szukanym mieście. Tech stack: HTML | Sass | RWD | React | API | CRA- webpack | Yarn.</p>
-          </div>
-          <div className='portfolioBox'>
-            <p className='portfolioTitle'>kamień - papier - nożyce</p>
-            <div className='imgWrapper'>
-              <img src={img3} alt='img' />
-              <div className='portfolioBtns'>
-                <a href='https://github.com/Zyar3k/rock-paper-scissors' className='portfolioBtn'>kod</a>
-                <a href='https://zyar3k.github.io/rock-paper-scissors/' className='portfolioBtn'>demo</a>
-              </div>
-            </div>
-            <p className='portfolioDesc'>Pierwsza gra napisana w JavaScript wyświetlająca wynik rozgrywki. Tech stack: HTML | Sass | RWD | JavaScript ES5 | npm Scripts.</p>
           </div>
           <div className='portfolioBox'>
             <p className='portfolioTitle'>panel administracyjny</p>
