@@ -1,90 +1,136 @@
-import React from 'react';
-import './Skills.scss';
-import PageTitle from '../../common/PageTitle/PageTitle';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSass, faHtml5, faCss3, faJs, faBootstrap, faReact, faNode, faMdb, faGitAlt, faNpm, faYarn, faJira} from '@fortawesome/free-brands-svg-icons';
+import React from "react";
+import "./Skills.scss";
+import PageTitle from "../../common/PageTitle/PageTitle";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faSass,
+  faHtml5,
+  faCss3,
+  faJs,
+  faBootstrap,
+  faReact,
+  faNode,
+  faMdb,
+  faGitAlt,
+  faNpm,
+  faYarn,
+  faJira,
+} from "@fortawesome/free-brands-svg-icons";
 
-class Skills extends React.Component {
+const skillsDB = {
+  title: "wciąż się rozwijam",
+  frontTitle: "FRONT-END",
+  backTitle: "BACK-END",
+  toolsTitle: "TOOLS",
+  frontContent: [
+    {
+      icon: faHtml5,
+      name: "HTML5",
+      class: "html5",
+    },
+    {
+      icon: faCss3,
+      name: "CSS",
+      class: "css",
+    },
+    {
+      icon: faSass,
+      name: "Sass",
+      class: "sass",
+    },
+    {
+      icon: faBootstrap,
+      name: "Bootstrap",
+      class: "bootstrap",
+    },
+    {
+      icon: faJs,
+      name: "JavaScript",
+      class: "js",
+    },
+    {
+      icon: faReact,
+      name: "React+Redux",
+      class: "react",
+    },
+  ],
+  backContent: [
+    {
+      icon: faNode,
+      name: "Node.js - Express",
+      class: "node",
+    },
+    {
+      icon: faMdb,
+      name: "MongoDB",
+      class: "mongo",
+    },
+  ],
+  toolsContent: [
+    {
+      icon: faGitAlt,
+      name: "git",
+      class: "git",
+    },
+    {
+      icon: faNpm,
+      name: "npm",
+      class: "npm",
+    },
+    {
+      icon: faYarn,
+      name: "yarn",
+      class: "yarn",
+    },
+    {
+      icon: faJira,
+      name: "Jira",
+      class: "jira",
+    },
+  ],
+};
 
-  render(){
+const Skills = () => {
+  const frontSection = skillsDB.frontContent.map((item, index) => (
+    <div key={index} className={`iconBox ${item.class}`}>
+      <FontAwesomeIcon icon={item.icon} className='icon' />
+      <div className='skillName'>{item.name}</div>
+    </div>
+  ));
+  const backSection = skillsDB.backContent.map((item, index) => (
+    <div key={index} className={`iconBox ${item.class}`}>
+      <FontAwesomeIcon icon={item.icon} className='icon' />
+      <div className='skillName'>{item.name}</div>
+    </div>
+  ));
+  const toolsSection = skillsDB.toolsContent.map((item, index) => (
+    <div key={index} className={`iconBox ${item.class}`}>
+      <FontAwesomeIcon icon={item.icon} className='icon' />
+      <div className='skillName'>{item.name}</div>
+    </div>
+  ));
 
-    return(
-      <div className='pageContent'>
-        <PageTitle>wciąż się rozwijam</PageTitle>
-        <div className='skills'>
-          <div className='skillsSection'>
-            <div className='sectionTitle'>
-            FRONT-END
-            </div>
-            <div className='skillsContent'>
-              <div className='iconBox html5'>
-                <FontAwesomeIcon  icon={faHtml5} className='icon' />
-                <div className='skillName'>HTML5</div>
-              </div>
-              <div className='iconBox css'>
-                <FontAwesomeIcon  icon={faCss3} className='icon' />
-                <div className='skillName'>CSS</div>
-              </div>
-              <div className='iconBox sass'>
-                <FontAwesomeIcon  icon={faSass} className='icon' />
-                <div className='skillName'>Sass</div>
-              </div>
-              <div className='iconBox bootstrap'>
-                <FontAwesomeIcon  icon={faBootstrap} className='icon' />
-                <div className='skillName'>Bootstrap</div>
-              </div>
-              <div className='iconBox js'>
-                <FontAwesomeIcon  icon={faJs} className='icon' />
-                <div className='skillName'>JavaScript</div>
-              </div>
-              <div className='iconBox react'>
-                <FontAwesomeIcon  icon={faReact} className='icon' />
-                <div className='skillName'>React+Redux</div>
-              </div>
-            </div>
-          </div>
-          <div className='skillsSection'>
-            <div className='sectionTitle'>
-            BACK-END
-            </div>
-            <div className='skillsContent'>
-              <div className='iconBox node'>
-                <FontAwesomeIcon  icon={faNode} className='icon' />
-                <div className='skillName'>Node.js - Express</div>
-              </div>
-              <div className='iconBox mongo'>
-                <FontAwesomeIcon  icon={faMdb} className='icon' />
-                <div className='skillName'>MongoDB</div>
-              </div>
-            </div>
-          </div>
-          <div className='skillsSection'>
-            <div className='sectionTitle'>
-            TOOLS
-            </div>
-            <div className='skillsContent'>
-              <div className='iconBox git'>
-                <FontAwesomeIcon  icon={faGitAlt} className='icon' />
-                <div className='skillName'>Git</div>
-              </div>
-              <div className='iconBox npm'>
-                <FontAwesomeIcon  icon={faNpm} className='icon' />
-                <div className='skillName'>npm</div>
-              </div>
-              <div className='iconBox yarn'>
-                <FontAwesomeIcon  icon={faYarn} className='icon' />
-                <div className='skillName'>yarn</div>
-              </div>
-              <div className='iconBox jira'>
-                <FontAwesomeIcon  icon={faJira} className='icon' />
-                <div className='skillName'>Jira</div>
-              </div>
-            </div>
-          </div>
+  return (
+    <div className='pageContent'>
+      <PageTitle>{skillsDB.title}</PageTitle>
+      <div className='skills'>
+        <div className='skillsSection'>
+          <div className='sectionTitle'>{skillsDB.frontTitle}</div>
+          <div className='skillsContent'>{frontSection}</div>
+        </div>
+
+        <div className='skillsSection'>
+          <div className='sectionTitle'>{skillsDB.backTitle}</div>
+          <div className='skillsContent'>{backSection}</div>
+        </div>
+
+        <div className='skillsSection'>
+          <div className='sectionTitle'>{skillsDB.toolsTitle}</div>
+          <div className='skillsContent'>{toolsSection}</div>
         </div>
       </div>
-    );
-  };
+    </div>
+  );
 };
 
 export default Skills;
