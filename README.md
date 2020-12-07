@@ -1,4 +1,4 @@
-## [Check it out!](https://zyar3k.github.io/portfolio_ver.1/)
+## [LIVE](https://zyar3k.github.io/portfolio_ver.1/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
